@@ -9,6 +9,9 @@
     "moduleResolution": "Node",
     //Для абсолютного пути
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     //esModuleInterop позволяет работать с пакетами, которые используют
     //commonjs как с обычными пакетами с помощью import require() module.export
     "esModuleInterop": true,
