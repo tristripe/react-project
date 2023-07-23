@@ -8,9 +8,16 @@
     "allowJs": true,
     "moduleResolution": "Node",
     //Для абсолютного пути
-    "baseUrl": ".",
+    "baseUrl": "src/",
     "paths": {
-      "*": ["./src/*"]
+      "@app/*": ["app/*"],
+      "@entities/*": ["entities/*"],
+      "@features/*": ["features/*"],
+      "@helpers/*": ["helpers/*"],
+      "@pages/*": ["pages/*"],
+      "@shared/*": ["shared/*"],
+      "@theme/*": ["theme/*"],
+      "@widgets/*": ["widgets/*"],
     },
     //esModuleInterop позволяет работать с пакетами, которые используют
     //commonjs как с обычными пакетами с помощью import require() module.export
