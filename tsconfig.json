@@ -17,7 +17,7 @@
       "@pages/*": ["pages/*"],
       "@shared/*": ["shared/*"],
       "@theme/*": ["theme/*"],
-      "@widgets/*": ["widgets/*"],
+      "@widgets/*": ["widgets/*"]
     },
     //esModuleInterop позволяет работать с пакетами, которые используют
     //commonjs как с обычными пакетами с помощью import require() module.export
@@ -32,5 +32,8 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "include": [
+    "./config/jest/setupTests.ts"
+  ]
 }
